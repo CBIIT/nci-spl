@@ -1,0 +1,3 @@
+[submodule "themes/multipurpose"]
+	path = themes/multipurpose
+	url = https://github.com/CBIIT/drupal-multipurpose-theme.git
