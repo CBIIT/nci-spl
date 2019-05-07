@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92a60c7cb419b46ae1f1b87622831dc8",
+    "content-hash": "db923cf9d61df6a8b07644d40376326f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2092,6 +2092,239 @@
             "time": "2019-03-30T10:41:38+00:00"
         },
         {
+            "name": "drupal/admin_toolbar",
+            "version": "1.26.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/admin_toolbar.git",
+                "reference": "8.x-1.26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.26.zip",
+                "reference": "8.x-1.26",
+                "shasum": "7be9f91008bf17cf49b43d1c8e2211e7a8e40ce4"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.26",
+                    "datestamp": "1549559402",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Wilfrid Roze (eme)",
+                    "homepage": "https://www.drupal.org/u/eme",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Romain Jarraud (romainj)",
+                    "homepage": "https://www.drupal.org/u/romainj",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Adrian Cid Almaguer (adriancid)",
+                    "homepage": "https://www.drupal.org/u/adriancid",
+                    "email": "adriancid@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Mohamed Anis Taktak (matio89)",
+                    "homepage": "https://www.drupal.org/u/matio89",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "fethi.krout",
+                    "homepage": "https://www.drupal.org/user/3206765"
+                },
+                {
+                    "name": "matio89",
+                    "homepage": "https://www.drupal.org/user/2320090"
+                },
+                {
+                    "name": "romainj",
+                    "homepage": "https://www.drupal.org/user/370706"
+                }
+            ],
+            "description": "Provides a drop-down menu interface to the core Drupal Toolbar.",
+            "homepage": "http://drupal.org/project/admin_toolbar",
+            "keywords": [
+                "Drupal",
+                "Toolbar"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/admin_toolbar",
+                "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/autologout",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/autologout.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/autologout-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "0a5f67d4393b0acdf8522b1b1a5c9eb40bb05d93"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1494237185",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "AjK",
+                    "homepage": "https://www.drupal.org/user/39030"
+                },
+                {
+                    "name": "AjitS",
+                    "homepage": "https://www.drupal.org/user/981944"
+                },
+                {
+                    "name": "boshtian",
+                    "homepage": "https://www.drupal.org/user/1773456"
+                },
+                {
+                    "name": "dandrews",
+                    "homepage": "https://www.drupal.org/user/2014490"
+                },
+                {
+                    "name": "darksnow",
+                    "homepage": "https://www.drupal.org/user/391915"
+                },
+                {
+                    "name": "johnennew",
+                    "homepage": "https://www.drupal.org/user/1150042"
+                },
+                {
+                    "name": "jrglasgow",
+                    "homepage": "https://www.drupal.org/user/36590"
+                },
+                {
+                    "name": "kmasood",
+                    "homepage": "https://www.drupal.org/user/1262860"
+                },
+                {
+                    "name": "levelos",
+                    "homepage": "https://www.drupal.org/user/54135"
+                },
+                {
+                    "name": "prabeen.giri",
+                    "homepage": "https://www.drupal.org/user/913078"
+                },
+                {
+                    "name": "str8",
+                    "homepage": "https://www.drupal.org/user/2865063"
+                }
+            ],
+            "description": "Adds automated timed logout.",
+            "homepage": "http://drupal.org/project/autologout",
+            "support": {
+                "source": "https://git.drupalcode.org/project/autologout"
+            }
+        },
+        {
+            "name": "drupal/backup_migrate",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/backup_migrate.git",
+                "reference": "8.x-4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/backup_migrate-8.x-4.0.zip",
+                "reference": "8.x-4.0",
+                "shasum": "9f91ae24b0862a1e9403b87090453f9c7c48ffea"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.0",
+                    "datestamp": "1522330983",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ronan Dowling",
+                    "homepage": "https://www.drupal.org/u/ronan",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "dgorton",
+                    "homepage": "https://www.drupal.org/user/19044"
+                },
+                {
+                    "name": "ikit-claw",
+                    "homepage": "https://www.drupal.org/user/3285813"
+                },
+                {
+                    "name": "ronan",
+                    "homepage": "https://www.drupal.org/user/72815"
+                }
+            ],
+            "description": "Backup and Migrate Drupal Module",
+            "homepage": "https://www.drupal.org/project/backup_migrate",
+            "support": {
+                "source": "http://cgit.drupalcode.org/backup_migrate",
+                "issues": "https://www.drupal.org/project/issues/backup_migrate"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.8.0",
             "source": {
@@ -2590,6 +2823,256 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2019-05-01T18:39:15+00:00"
+        },
+        {
+            "name": "drupal/devel",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/devel.git",
+                "reference": "8.x-2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/devel-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "8f735892922aa5f228e681e645e5f02b1c008f14"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "symfony/var-dumper": "~2.7|^3|^4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.1",
+                    "datestamp": "1556799496",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "homepage": "https://github.com/weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Hans Salvisberg",
+                    "homepage": "https://www.drupal.org/u/salvis",
+                    "email": "drupal@salvisberg.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Luca Lusso",
+                    "homepage": "https://www.drupal.org/u/lussoluca",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Marco (willzyx)",
+                    "homepage": "https://www.drupal.org/u/willzyx",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/3236/committers"
+                },
+                {
+                    "name": "salvis",
+                    "homepage": "https://www.drupal.org/user/82964"
+                },
+                {
+                    "name": "willzyx",
+                    "homepage": "https://www.drupal.org/user/1043862"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "support": {
+                "source": "http://cgit.drupalcode.org/devel",
+                "issues": "http://drupal.org/project/devel",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/imce",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/imce.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/imce-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "55827d5c18c398269cea782a6bb8d9788a97576c"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1540559280",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                },
+                {
+                    "name": "ufku",
+                    "homepage": "https://www.drupal.org/user/9910"
+                }
+            ],
+            "description": "Provides a file manager supporting personal folders.",
+            "homepage": "https://drupal.org/project/imce",
+            "support": {
+                "source": "https://git.drupalcode.org/project/imce"
+            }
+        },
+        {
+            "name": "drupal/jquery_migrate",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/jquery_migrate.git",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jquery_migrate-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "06ff9ce2523e26da3e4a1fc44857f207141fb8ea"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1521105484",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "dabbor",
+                    "homepage": "https://www.drupal.org/user/2214664"
+                },
+                {
+                    "name": "gmem",
+                    "homepage": "https://www.drupal.org/user/3569777"
+                },
+                {
+                    "name": "kyberman",
+                    "homepage": "https://www.drupal.org/user/402924"
+                },
+                {
+                    "name": "radimklaska",
+                    "homepage": "https://www.drupal.org/user/229127"
+                }
+            ],
+            "description": "jQuery Migrate 3.x restores the API that was removed in the jQuery 3.x, previously marked as deprecated. Without it the breaking changes introduced by jQuery 3.x may break your site.",
+            "homepage": "https://www.drupal.org/project/jquery_migrate",
+            "support": {
+                "source": "http://cgit.drupalcode.org/jquery_migrate",
+                "issues": "https://www.drupal.org/project/issues/jquery_migrate"
+            }
+        },
+        {
+            "name": "drupal/security_review",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/security_review.git",
+                "reference": "9b8a34a21cac85913845df4eebb9a05c69de82d8"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1532659087",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "banviktor",
+                    "homepage": "https://www.drupal.org/user/3176333"
+                },
+                {
+                    "name": "coltrane",
+                    "homepage": "https://www.drupal.org/user/91990"
+                },
+                {
+                    "name": "dsnopek",
+                    "homepage": "https://www.drupal.org/user/266527"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                }
+            ],
+            "description": "Site security and configuration review module.",
+            "homepage": "https://www.drupal.org/project/security_review",
+            "support": {
+                "source": "https://git.drupalcode.org/project/security_review"
+            },
+            "time": "2018-07-27T02:32:58+00:00"
         },
         {
             "name": "drush/drush",
@@ -8454,7 +8937,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/jquery_migrate": 15,
+        "drupal/security_review": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
