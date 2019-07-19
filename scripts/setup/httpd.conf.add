@@ -1,0 +1,9 @@
+Alias /ftp1 /github/evs/ftp/ftp1 
+<Directory /github/evs/ftp/ftp1>
+		Options Indexes MultiViews
+		AllowOverride None
+        <IfModule authz_host_module>
+		    Order allow,deny
+		    Allow from all
+        </IfModule>
+</Directory>

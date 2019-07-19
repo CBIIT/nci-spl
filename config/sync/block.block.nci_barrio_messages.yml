@@ -1,0 +1,22 @@
+uuid: 283b9720-1f9f-4dd0-ad8d-99fe622dfa48
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nci_barrio
+_core:
+  default_config_hash: LeQmsHUrAbC6lPDRpM7kywYGxPYpsR3Arq_GjhgwKzA
+id: nci_barrio_messages
+theme: nci_barrio
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

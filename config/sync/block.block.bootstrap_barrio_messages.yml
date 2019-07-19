@@ -1,0 +1,22 @@
+uuid: a7227190-f1a6-4757-ad73-d0159d60d4ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+_core:
+  default_config_hash: LeQmsHUrAbC6lPDRpM7kywYGxPYpsR3Arq_GjhgwKzA
+id: bootstrap_barrio_messages
+theme: bootstrap_barrio
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

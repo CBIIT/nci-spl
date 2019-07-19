@@ -1,0 +1,20 @@
+uuid: 6fbb1daa-7222-4b01-93c7-471ea62e4356
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nci_barrio
+_core:
+  default_config_hash: 1mj4y0AlpEZscC8-aazIurmQfu0_48HwsB-h0dckrZM
+id: nci_barrio_page_title
+theme: nci_barrio
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

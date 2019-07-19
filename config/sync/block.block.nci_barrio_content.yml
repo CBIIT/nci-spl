@@ -1,0 +1,22 @@
+uuid: 17f516aa-7588-41d3-a373-7726110433b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nci_barrio
+_core:
+  default_config_hash: s9VhXMVbFSxSfbh_GgzN5sF8TGhLQAZbrQyYsnp2wSc
+id: nci_barrio_content
+theme: nci_barrio
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

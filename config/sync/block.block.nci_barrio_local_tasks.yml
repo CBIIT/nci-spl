@@ -1,0 +1,22 @@
+uuid: cb3b4509-907b-4fc7-8f46-58f4afd6d707
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nci_barrio
+_core:
+  default_config_hash: 7n0DB0bGlnSAju71m8clqvEb_ufDWY-FXsM00RDt744
+id: nci_barrio_local_tasks
+theme: nci_barrio
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

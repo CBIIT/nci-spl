@@ -1,0 +1,31 @@
+uuid: 3cdcb3a2-2f32-4672-845a-bf61b921846c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7909a784-2bff-46f2-805f-577704c067d2'
+  module:
+    - block_content
+    - system
+  theme:
+    - nci_barrio
+id: nci_barrio_evsrelatedlinks
+theme: nci_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:7909a784-2bff-46f2-805f-577704c067d2'
+settings:
+  id: 'block_content:7909a784-2bff-46f2-805f-577704c067d2'
+  label: 'Related Links '
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/login
+    negate: true
+    context_mapping: {  }

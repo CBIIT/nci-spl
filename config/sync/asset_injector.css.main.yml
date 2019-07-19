@@ -1,0 +1,17 @@
+uuid: 6a1cb8c8-69ef-4b10-833d-0ef5179e4d96
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: main
+label: main
+code: "/* CSS for the whole site */\r\nh1, h2 {\r\n  color:red;\r\n}\r\n#block-evsrelatedlinks {\r\n  background-color:green;\r\n}"
+media: all
+preprocess: true
+conditions:
+  request_path:
+    id: request_path
+    pages: '*'
+    negate: true
+conditions_require_all: true

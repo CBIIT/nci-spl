@@ -1,0 +1,27 @@
+uuid: 9876aaea-65c8-4a26-af21-b4a799054296
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - nci_barrio
+_core:
+  default_config_hash: RnBtrwi7OmEiUzaDTLjX-u7YmVMJ2oc_UpZAckoy8qs
+id: nci_barrio_footer
+theme: nci_barrio
+region: footer_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

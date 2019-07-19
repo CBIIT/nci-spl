@@ -1,0 +1,18 @@
+palette:
+  top: '#ffffff'
+  bottom: '#c2c4c5'
+  bg: '#ffffff'
+  sidebar: '#ffffff'
+  sidebarborders: '#cccccc'
+  footer: '#123e57'
+  button: '#019dbf'
+  buttonhover: '#016c83'
+  titleslogan: '#000000'
+  text: '#4a4a4a'
+  link: '#2a71a5'
+logo: 'public://color/nci_barrio-e5438d49/logo.svg'
+stylesheets:
+  - 'public://color/nci_barrio-e5438d49/colors.css'
+files:
+  - 'public://color/nci_barrio-e5438d49/logo.svg'
+  - 'public://color/nci_barrio-e5438d49/colors.css'

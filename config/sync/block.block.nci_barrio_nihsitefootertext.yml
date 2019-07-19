@@ -1,0 +1,25 @@
+uuid: 45f00baf-de3c-4d04-b68a-19b8c0ef1cdb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:83f4f9e8-8430-4d83-9198-b97dc3456696'
+  module:
+    - block_content
+  theme:
+    - nci_barrio
+id: nci_barrio_nihsitefootertext
+theme: nci_barrio
+region: footer_fifth
+weight: -6
+provider: null
+plugin: 'block_content:83f4f9e8-8430-4d83-9198-b97dc3456696'
+settings:
+  id: 'block_content:83f4f9e8-8430-4d83-9198-b97dc3456696'
+  label: 'NIH Site Footer Text'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

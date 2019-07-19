@@ -1,0 +1,19 @@
+uuid: 3590a06c-c606-4663-bfa7-9993742653d1
+langcode: en
+status: true
+dependencies: {  }
+id: admin
+label: admin
+description: 'This is for admin only'
+conf:
+  extensions: '*'
+  maxsize: !!float 8
+  quota: null
+  maxwidth: null
+  maxheight: null
+  replace: 1
+  folders:
+    -
+      path: assets
+      permissions:
+        all: true

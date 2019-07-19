@@ -1,0 +1,22 @@
+uuid: 61681c40-85ae-4393-86c8-7cddfceec643
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - nci_barrio
+_core:
+  default_config_hash: IWFJCqNvsTRp1nemiG_HOMtQG_gLk5MhTX7BDH-GgSI
+id: nci_barrio_help
+theme: nci_barrio
+region: content
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
