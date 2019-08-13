@@ -30,3 +30,6 @@
 
 # Ignore .env files as they are personal
 /.env
+
+/console
+/scripts/.DS_Store
