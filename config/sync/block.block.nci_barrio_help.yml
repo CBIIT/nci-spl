@@ -11,7 +11,7 @@ _core:
 id: nci_barrio_help
 theme: nci_barrio
 region: content
-weight: -2
+weight: -5
 provider: null
 plugin: help_block
 settings:

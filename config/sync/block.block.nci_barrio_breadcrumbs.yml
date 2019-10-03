@@ -11,7 +11,7 @@ _core:
 id: nci_barrio_breadcrumbs
 theme: nci_barrio
 region: breadcrumb
-weight: 0
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

@@ -1,0 +1,11 @@
+uuid: 94daa465-689e-4296-8681-2d7b3d21ba09
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Calendar'
+type: event_calendar
+description: 'A content type to create events for calendar.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,30 @@
+uuid: c90b5e98-25a8-4cd4-9467-5f892575714a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event_calendar.body
+    - node.type.event_calendar
+  module:
+    - text
+    - user
+id: node.event_calendar.teaser
+targetEntityType: node
+bundle: event_calendar
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

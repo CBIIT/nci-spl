@@ -1,6 +1,6 @@
 uuid: 4100402a-b32d-4d63-b326-0d8825b4dd02
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -8,13 +8,13 @@ dependencies:
     - nci_barrio
 id: breadcrumbs
 theme: nci_barrio
-region: highlighted
-weight: -7
+region: breadcrumb
+weight: -8
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: '[current-page:title] [current-page:page-number]'
+  label: '[current-page:title]'
   provider: system
   label_display: visible
 visibility: {  }

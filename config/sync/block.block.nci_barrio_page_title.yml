@@ -2,6 +2,8 @@ uuid: 6fbb1daa-7222-4b01-93c7-471ea62e4356
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - nci_barrio
 _core:
@@ -9,12 +11,17 @@ _core:
 id: nci_barrio_page_title
 theme: nci_barrio
 region: content
-weight: -4
+weight: -3
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
   label: 'Page title'
   provider: core
-  label_display: '0'
-visibility: {  }
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }

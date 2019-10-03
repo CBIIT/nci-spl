@@ -9,7 +9,7 @@ _core:
 id: nci_barrio_local_tasks
 theme: nci_barrio
 region: content
-weight: -3
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:

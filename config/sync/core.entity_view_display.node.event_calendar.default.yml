@@ -1,0 +1,40 @@
+uuid: b6351008-9f45-4e8d-8ea5-fa2ad72bcbf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_event_calendar.default
+    - field.field.node.event_calendar.body
+    - field.field.node.event_calendar.comment_node_event_calendar
+    - node.type.event_calendar
+  module:
+    - comment
+    - text
+    - user
+id: node.event_calendar.default
+targetEntityType: node
+bundle: event_calendar
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_node_event_calendar:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

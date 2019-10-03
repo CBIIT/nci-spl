@@ -25,9 +25,11 @@ features:
   favicon: true
 logo:
   use_default: false
-  path: 'public://evs-logo_1.png'
+  path: 'public://spl-logo_3.png'
 favicon:
-  use_default: true
+  use_default: false
+  path: 'public://favicon-16x16.png'
+  mimetype: image/png
 bootstrap_barrio_region_clean_top_header: 0
 bootstrap_barrio_region_class_top_header: row
 bootstrap_barrio_region_clean_top_header_form: 0

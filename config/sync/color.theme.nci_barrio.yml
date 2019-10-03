@@ -10,9 +10,9 @@ palette:
   titleslogan: '#000000'
   text: '#4a4a4a'
   link: '#2a71a5'
-logo: 'public://color/nci_barrio-e5438d49/logo.svg'
+logo: 'public://color/nci_barrio-1890a955/logo.svg'
 stylesheets:
-  - 'public://color/nci_barrio-e5438d49/colors.css'
+  - 'public://color/nci_barrio-1890a955/colors.css'
 files:
-  - 'public://color/nci_barrio-e5438d49/logo.svg'
-  - 'public://color/nci_barrio-e5438d49/colors.css'
+  - 'public://color/nci_barrio-1890a955/logo.svg'
+  - 'public://color/nci_barrio-1890a955/colors.css'

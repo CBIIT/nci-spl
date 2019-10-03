@@ -1,0 +1,17 @@
+uuid: 3d0984f0-cb07-47d8-8dc5-8dad325a29d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: remove_title
+label: 'Remove Title'
+code: "#block-nci-barrio-content > h2 {\r\n  display:none;\r\n}"
+media: all
+preprocess: true
+conditions:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
+conditions_require_all: true

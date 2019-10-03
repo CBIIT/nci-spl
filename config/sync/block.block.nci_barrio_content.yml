@@ -11,12 +11,12 @@ _core:
 id: nci_barrio_content
 theme: nci_barrio
 region: content
-weight: 0
+weight: -2
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
   label: 'Main page content'
   provider: system
-  label_display: '0'
+  label_display: visible
 visibility: {  }

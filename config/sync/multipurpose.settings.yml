@@ -7,8 +7,8 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: 'public://evs-logo_1.png'
+  path: 'public://spl-logo_3.png'
 favicon:
   use_default: 0
-  path: 'public://favicon-32x32.png'
+  path: 'private://nci-favicon-32x32.png'
   mimetype: image/png
