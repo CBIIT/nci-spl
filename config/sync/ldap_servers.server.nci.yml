@@ -5,8 +5,8 @@ dependencies: {  }
 id: nci
 label: nci
 type: ad
-address: 'ldaps://nihdcadhub3.nih.gov'
-port: 636
+address: unknown
+port: 389
 timeout: 10
 tls: false
 followrefs: null

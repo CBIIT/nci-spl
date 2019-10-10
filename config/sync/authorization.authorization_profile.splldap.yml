@@ -1,0 +1,47 @@
+uuid: d3b41345-1646-42c4-9334-211829ff95e3
+langcode: en
+status: true
+dependencies: {  }
+id: splldap
+label: splldap
+provider: ldap_provider
+provider_config:
+  status:
+    server: nci
+    only_ldap_authenticated: true
+  filter_and_mappings:
+    use_first_attr_as_groupid: false
+provider_mappings:
+  -
+    query: 'CN=NCI GP-ZOPE_MANAGER,OU=Groups,OU=NCI,OU=NIH,OU=AD,DC=nih,DC=gov'
+    is_regex: false
+  -
+    query: 'CN=NCI GP-ZOPE_SPLMANAGER,OU=Groups,OU=NCI,OU=NIH,OU=AD,DC=nih,DC=gov'
+    is_regex: false
+  -
+    query: 'CN=NCI GP-SPLADMIN,OU=Groups,OU=NCI,OU=NIH,OU=AD,DC=nih,DC=gov'
+    is_regex: false
+  -
+    query: 'CN=NCI GP-SPLMEMBER,OU=Groups,OU=NCI,OU=NIH,OU=AD,DC=nih,DC=gov'
+    is_regex: false
+  -
+    query: ''
+    is_regex: false
+consumer: authorization_drupal_roles
+consumer_config: {  }
+consumer_mappings:
+  -
+    role: administrator
+  -
+    role: manager
+  -
+    role: administrator
+  -
+    role: none
+  -
+    role: none
+synchronization_modes:
+  user_logon: '0'
+synchronization_actions:
+  revoke_provider_provisioned: '0'
+  create_consumers: '0'

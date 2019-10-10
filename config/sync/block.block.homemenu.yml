@@ -1,0 +1,33 @@
+uuid: b14ec668-6f14-4ffd-aa64-82ca92a0106c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.home-menu
+  module:
+    - system
+    - user
+  theme:
+    - nci_barrio
+id: homemenu
+theme: nci_barrio
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:home-menu'
+settings:
+  id: 'system_menu_block:home-menu'
+  label: 'Home menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
