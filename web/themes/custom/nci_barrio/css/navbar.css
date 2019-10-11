@@ -2,9 +2,7 @@
 #navbar-main {
   padding:0px;
 }
-nav#block-useraccountmenu > ul > a:first-child {
-  display:none;
-}
+
 nav#block-nci-barrio-main-menu {
   background-color: #343a40;
   border-color: #fff;
