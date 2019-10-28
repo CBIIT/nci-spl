@@ -79,11 +79,11 @@
         ],
         "post-install-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-            "php -r \"copy('themes/nci_barrio/js/imce/imce.js.override', 'modules/contrib/imce/js/imce.js');\""
+            "php -r \"copy('web/themes/nci_barrio/js/imce/imce.js.override', 'web/modules/contrib/imce/js/imce.js');\""
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-            "php -r \"copy('themes/nci_barrio/js/imce/imce.js.override', 'modules/contrib/imce/js/imce.js');\""
+            "php -r \"copy('web/themes/nci_barrio/js/imce/imce.js.override', 'web/modules/contrib/imce/js/imce.js');\""
         ]
     },
     "extra": {
