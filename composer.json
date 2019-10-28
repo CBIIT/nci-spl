@@ -78,10 +78,12 @@
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "php -r \"copy('themes/nci_barrio/js/imce/imce.js.override', 'modules/contrib/imce/js/imce.js');\""
         ],
         "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "php -r \"copy('themes/nci_barrio/js/imce/imce.js.override', 'modules/contrib/imce/js/imce.js');\""
         ]
     },
     "extra": {
