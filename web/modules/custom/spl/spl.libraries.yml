@@ -1,0 +1,8 @@
+non-spl-user.library:
+  css:
+    theme:
+      css/non-spl-user.css: {}
+  js:
+    js/non-spl-user.js: {}
+  dependencies:
+    - core/jquery    

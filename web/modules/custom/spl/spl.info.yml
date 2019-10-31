@@ -1,0 +1,6 @@
+name: NCI SPL Module
+description: Creates a page showing "Unauthorized access for non-spl users".
+package: Custom
+type: module
+version: 1.0
+core: 8.x

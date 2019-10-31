@@ -1,0 +1,7 @@
+spl.content:
+  path: '/non-spl-user'
+  defaults:
+    _controller: '\Drupal\spl\Controller\SplController::NonSplUser'
+    _title: 'Non SPL User'
+  requirements:
+    _access: 'TRUE'
