@@ -1,6 +1,14 @@
 {{ dump(user) }}<br>
-<h2>User Not Athorized</h2>
-<div class="well">
-User account <strong>{{ user.name }} &lt;{{ user.email }}&gt;</strong> does not have the proper rights to access the Scientific Program Leaders (SPL) Web Application.  If you find this an error, please contact your manager for permission to access the <strong>SPL Web Applicaiton</strong>.
-</div>
-<br>
+user.roles|length: {{ user.roles|length }}<br>
+{% if user.roles|length > 1 %}
+    <h2>Welcome to SPL</h2>
+    <div class="well">
+You can now access this system
+    </div>
+{% else %}
+    <h2>User Not Athorized</h2>
+    <div class="well">
+    User account <strong>{{ user.name }} &lt;{{ user.email }}&gt;</strong> does not have the proper rights to access the Scientific Program Leaders (SPL) Web Application.  If you find this an error, please contact your manager for permission to access the <strong>SPL Web Applicaiton</strong>.
+    </div>
+    <br>
+{% endif %}
