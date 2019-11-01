@@ -1,9 +1,11 @@
+{#
 {{ dump(user) }}<br>
 user.roles|length: {{ user.roles|length }}<br>
+#}
 {% if user.roles|length > 1 %}
     <h2>Welcome to SPL</h2>
     <div class="well">
-You can now access this system
+    You have been granted the <strong>{{ user.roles[1] }}</strong> role.  You may now access this system.
     </div>
 {% else %}
     <h2>User Not Athorized</h2>
