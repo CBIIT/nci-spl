@@ -69,6 +69,7 @@ class SplController extends ControllerBase {
     $user['email'] = $user_entity->get('mail')->value;
     $user['name'] = $user_entity->get('name')->value;
     $user['uid'] = $user_entity->get('uid')->value;
+    $user['roles'] = $user_entity->getRoles();
 
     $template = $twig->loadTemplate('modules/custom/spl/templates/non-spl-user.html.twig');
     $response = $template->render(["user" => $user]);
