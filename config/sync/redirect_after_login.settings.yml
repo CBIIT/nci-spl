@@ -1,5 +1,7 @@
 login_redirection:
   anonymous: null
-  authenticated: /
-  administrator: /
+  authenticated: /non-spl-user
+  administrator: /home
+  manager: /home
+  member: /home
 exclude_urls: ''

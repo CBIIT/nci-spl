@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.event_calendar.body
     - field.field.node.event_calendar.comment_node_event_calendar
+    - field.field.node.event_calendar.event_calendar_date
+    - field.field.node.event_calendar.event_calendar_status
     - node.type.event_calendar
   module:
     - comment
@@ -22,6 +24,7 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
     region: content
   comment_node_event_calendar:
@@ -78,6 +81,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
   url_redirects:
@@ -85,4 +89,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  event_calendar_date: true
+  event_calendar_status: true

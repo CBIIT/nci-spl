@@ -1,0 +1,20 @@
+uuid: eb4c1a7a-7206-4c36-80af-ea7cd3368a34
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: remove_my_account_in_user_menu_in_header
+label: 'Remove My Account in User Menu in Header'
+code: "nav#block-useraccountmenu > ul > a:first-child {\r\n  display:none;\r\n}\r\n"
+media: all
+preprocess: true
+conditions:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+conditions_require_all: true

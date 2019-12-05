@@ -3,17 +3,40 @@ langcode: en
 status: true
 dependencies: {  }
 id: admin
-label: admin
-description: 'This is for admin only'
+label: 'Admin Profile'
+description: 'This is for Administrators and Managers only'
 conf:
   extensions: '*'
-  maxsize: !!float 8
+  maxsize: !!float 0
   quota: null
   maxwidth: null
   maxheight: null
   replace: 1
   folders:
     -
-      path: assets
+      path: materials
       permissions:
-        all: true
+        browse_files: true
+        browse_subfolders: true
+        create_subfolders: true
+        upload_files: true
+        delete_files: true
+        delete_subfolders: true
+    -
+      path: resources
+      permissions:
+        browse_files: true
+        browse_subfolders: true
+        create_subfolders: true
+        upload_files: true
+        delete_files: true
+        delete_subfolders: true
+    -
+      path: minutes
+      permissions:
+        browse_files: true
+        browse_subfolders: true
+        create_subfolders: true
+        upload_files: true
+        delete_files: true
+        delete_subfolders: true

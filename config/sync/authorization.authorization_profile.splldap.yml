@@ -13,9 +13,6 @@ provider_config:
     use_first_attr_as_groupid: false
 provider_mappings:
   -
-    query: 'CN=NCI GP-ZOPE_MANAGER,OU=Groups,OU=NCI,OU=NIH,OU=AD,DC=nih,DC=gov'
-    is_regex: false
-  -
     query: 'CN=NCI GP-ZOPE_SPLMANAGER,OU=Groups,OU=NCI,OU=NIH,OU=AD,DC=nih,DC=gov'
     is_regex: false
   -
@@ -24,22 +21,15 @@ provider_mappings:
   -
     query: 'CN=NCI GP-SPLMEMBER,OU=Groups,OU=NCI,OU=NIH,OU=AD,DC=nih,DC=gov'
     is_regex: false
-  -
-    query: ''
-    is_regex: false
 consumer: authorization_drupal_roles
 consumer_config: {  }
 consumer_mappings:
-  -
-    role: administrator
   -
     role: manager
   -
     role: administrator
   -
-    role: none
-  -
-    role: none
+    role: member
 synchronization_modes:
   user_logon: '0'
 synchronization_actions:

@@ -1,0 +1,11 @@
+uuid: 9e44bb5d-5fe9-4d0c-bf61-1a5abb5436a5
+langcode: en
+status: true
+dependencies: {  }
+id: member
+label: Member
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'
+  - 'view any page content'

@@ -1,0 +1,30 @@
+uuid: c9a3e337-a7bd-4a4d-9be6-712ad86985d6
+langcode: en
+status: true
+dependencies: {  }
+id: regularuser_profile
+label: 'RegularUser profile'
+description: 'This is for authenticated users'
+conf:
+  extensions: 'gif png jpg jpeg'
+  maxsize: !!float 2
+  quota: !!float 0
+  maxwidth: 800
+  maxheight: 600
+  replace: 0
+  folders:
+    -
+      path: materials
+      permissions:
+        browse_files: true
+        browse_subfolders: true
+    -
+      path: minutes
+      permissions:
+        browse_files: true
+        browse_subfolders: true
+    -
+      path: resources
+      permissions:
+        browse_files: true
+        browse_subfolders: true
